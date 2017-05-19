@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74203D191E9D33410019A9D1 /* digital-7 (italic).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74203D181E9D31BD0019A9D1 /* digital-7 (italic).ttf */; };
+		74203D1B1E9D36230019A9D1 /* backrepeatalarm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74203D1A1E9D36230019A9D1 /* backrepeatalarm.jpg */; };
+		743651391ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743651381ECECFB40029DC06 /* GoogleMobileAds.framework */; };
+		7436513A1ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743651381ECECFB40029DC06 /* GoogleMobileAds.framework */; };
+		7436513B1ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743651381ECECFB40029DC06 /* GoogleMobileAds.framework */; };
+		7436513D1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7436513C1ECECFCB0029DC06 /* GoogleService-Info.plist */; };
+		7436513E1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7436513C1ECECFCB0029DC06 /* GoogleService-Info.plist */; };
+		7436513F1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7436513C1ECECFCB0029DC06 /* GoogleService-Info.plist */; };
+		7476C7EF1E9E472E00E6150A /* digital-7 (mono).ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7476C7EE1E9E472500E6150A /* digital-7 (mono).ttf */; };
+		7476C7F31E9E651100E6150A /* stopbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7476C7F21E9E651100E6150A /* stopbtn.png */; };
+		7476C7F51E9E6C9E00E6150A /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7476C7F41E9E6C9E00E6150A /* 1.mp3 */; };
+		749E685B1E9D4A6B00225D58 /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E685A1E9D4A6B00225D58 /* set.png */; };
+		749E685D1E9D53A400225D58 /* ghy.png in Resources */ = {isa = PBXBuildFile; fileRef = 749E685C1E9D53A400225D58 /* ghy.png */; };
+		74CC3CEF1E9C4F090047601B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC3CEE1E9C4F090047601B /* AppDelegate.swift */; };
+		74CC3CF11E9C4F090047601B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC3CF01E9C4F090047601B /* ViewController.swift */; };
+		74CC3CF41E9C4F090047601B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CC3CF21E9C4F090047601B /* Main.storyboard */; };
+		74CC3CF61E9C4F090047601B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74CC3CF51E9C4F090047601B /* Assets.xcassets */; };
+		74CC3CF91E9C4F090047601B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74CC3CF71E9C4F090047601B /* LaunchScreen.storyboard */; };
+		74CC3D041E9C4F090047601B /* Repeat_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC3D031E9C4F090047601B /* Repeat_AlarmTests.swift */; };
+		74CC3D0F1E9C4F090047601B /* Repeat_AlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CC3D0E1E9C4F090047601B /* Repeat_AlarmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74CC3D001E9C4F090047601B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CC3CE31E9C4F090047601B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74CC3CEA1E9C4F090047601B;
+			remoteInfo = "Repeat Alarm";
+		};
+		74CC3D0B1E9C4F090047601B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74CC3CE31E9C4F090047601B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74CC3CEA1E9C4F090047601B;
+			remoteInfo = "Repeat Alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74203D181E9D31BD0019A9D1 /* digital-7 (italic).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (italic).ttf"; sourceTree = "<group>"; };
+		74203D1A1E9D36230019A9D1 /* backrepeatalarm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backrepeatalarm.jpg; sourceTree = "<group>"; };
+		743651381ECECFB40029DC06 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		7436513C1ECECFCB0029DC06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7476C7EE1E9E472500E6150A /* digital-7 (mono).ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7 (mono).ttf"; sourceTree = "<group>"; };
+		7476C7F21E9E651100E6150A /* stopbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stopbtn.png; sourceTree = "<group>"; };
+		7476C7F41E9E6C9E00E6150A /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		749E685A1E9D4A6B00225D58 /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		749E685C1E9D53A400225D58 /* ghy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghy.png; sourceTree = "<group>"; };
+		74CC3CEB1E9C4F090047601B /* Repeat Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Repeat Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC3CEE1E9C4F090047601B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74CC3CF01E9C4F090047601B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74CC3CF31E9C4F090047601B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74CC3CF51E9C4F090047601B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74CC3CF81E9C4F090047601B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74CC3CFA1E9C4F090047601B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC3CFF1E9C4F090047601B /* Repeat AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Repeat AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC3D031E9C4F090047601B /* Repeat_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat_AlarmTests.swift; sourceTree = "<group>"; };
+		74CC3D051E9C4F090047601B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CC3D0A1E9C4F090047601B /* Repeat AlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Repeat AlarmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CC3D0E1E9C4F090047601B /* Repeat_AlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat_AlarmUITests.swift; sourceTree = "<group>"; };
+		74CC3D101E9C4F090047601B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74CC3CE81E9C4F090047601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743651391ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3CFC1E9C4F090047601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436513A1ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3D071E9C4F090047601B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436513B1ECECFB40029DC06 /* GoogleMobileAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74CC3CE21E9C4F090047601B = {
+			isa = PBXGroup;
+			children = (
+				74CC3CED1E9C4F090047601B /* Repeat Alarm */,
+				74CC3D021E9C4F090047601B /* Repeat AlarmTests */,
+				74CC3D0D1E9C4F090047601B /* Repeat AlarmUITests */,
+				74CC3CEC1E9C4F090047601B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74CC3CEC1E9C4F090047601B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74CC3CEB1E9C4F090047601B /* Repeat Alarm.app */,
+				74CC3CFF1E9C4F090047601B /* Repeat AlarmTests.xctest */,
+				74CC3D0A1E9C4F090047601B /* Repeat AlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74CC3CED1E9C4F090047601B /* Repeat Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				743651381ECECFB40029DC06 /* GoogleMobileAds.framework */,
+				74CC3CEE1E9C4F090047601B /* AppDelegate.swift */,
+				74CC3CF01E9C4F090047601B /* ViewController.swift */,
+				74CC3CF21E9C4F090047601B /* Main.storyboard */,
+				74203D181E9D31BD0019A9D1 /* digital-7 (italic).ttf */,
+				74CC3CF51E9C4F090047601B /* Assets.xcassets */,
+				749E685C1E9D53A400225D58 /* ghy.png */,
+				7476C7F41E9E6C9E00E6150A /* 1.mp3 */,
+				74203D1A1E9D36230019A9D1 /* backrepeatalarm.jpg */,
+				7476C7F21E9E651100E6150A /* stopbtn.png */,
+				7476C7EE1E9E472500E6150A /* digital-7 (mono).ttf */,
+				749E685A1E9D4A6B00225D58 /* set.png */,
+				74CC3CF71E9C4F090047601B /* LaunchScreen.storyboard */,
+				74CC3CFA1E9C4F090047601B /* Info.plist */,
+				7436513C1ECECFCB0029DC06 /* GoogleService-Info.plist */,
+			);
+			path = "Repeat Alarm";
+			sourceTree = "<group>";
+		};
+		74CC3D021E9C4F090047601B /* Repeat AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				74CC3D031E9C4F090047601B /* Repeat_AlarmTests.swift */,
+				74CC3D051E9C4F090047601B /* Info.plist */,
+			);
+			path = "Repeat AlarmTests";
+			sourceTree = "<group>";
+		};
+		74CC3D0D1E9C4F090047601B /* Repeat AlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74CC3D0E1E9C4F090047601B /* Repeat_AlarmUITests.swift */,
+				74CC3D101E9C4F090047601B /* Info.plist */,
+			);
+			path = "Repeat AlarmUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74CC3CEA1E9C4F090047601B /* Repeat Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC3D131E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat Alarm" */;
+			buildPhases = (
+				74CC3CE71E9C4F090047601B /* Sources */,
+				74CC3CE81E9C4F090047601B /* Frameworks */,
+				74CC3CE91E9C4F090047601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Repeat Alarm";
+			productName = "Repeat Alarm";
+			productReference = 74CC3CEB1E9C4F090047601B /* Repeat Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74CC3CFE1E9C4F090047601B /* Repeat AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC3D161E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat AlarmTests" */;
+			buildPhases = (
+				74CC3CFB1E9C4F090047601B /* Sources */,
+				74CC3CFC1E9C4F090047601B /* Frameworks */,
+				74CC3CFD1E9C4F090047601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CC3D011E9C4F090047601B /* PBXTargetDependency */,
+			);
+			name = "Repeat AlarmTests";
+			productName = "Repeat AlarmTests";
+			productReference = 74CC3CFF1E9C4F090047601B /* Repeat AlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74CC3D091E9C4F090047601B /* Repeat AlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74CC3D191E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat AlarmUITests" */;
+			buildPhases = (
+				74CC3D061E9C4F090047601B /* Sources */,
+				74CC3D071E9C4F090047601B /* Frameworks */,
+				74CC3D081E9C4F090047601B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74CC3D0C1E9C4F090047601B /* PBXTargetDependency */,
+			);
+			name = "Repeat AlarmUITests";
+			productName = "Repeat AlarmUITests";
+			productReference = 74CC3D0A1E9C4F090047601B /* Repeat AlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74CC3CE31E9C4F090047601B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Collins;
+				TargetAttributes = {
+					74CC3CEA1E9C4F090047601B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					74CC3CFE1E9C4F090047601B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6WNRAAJ27A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74CC3CEA1E9C4F090047601B;
+					};
+					74CC3D091E9C4F090047601B = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6WNRAAJ27A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 74CC3CEA1E9C4F090047601B;
+					};
+				};
+			};
+			buildConfigurationList = 74CC3CE61E9C4F090047601B /* Build configuration list for PBXProject "Repeat Alarm" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74CC3CE21E9C4F090047601B;
+			productRefGroup = 74CC3CEC1E9C4F090047601B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74CC3CEA1E9C4F090047601B /* Repeat Alarm */,
+				74CC3CFE1E9C4F090047601B /* Repeat AlarmTests */,
+				74CC3D091E9C4F090047601B /* Repeat AlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74CC3CE91E9C4F090047601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7476C7F31E9E651100E6150A /* stopbtn.png in Resources */,
+				7436513D1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */,
+				749E685B1E9D4A6B00225D58 /* set.png in Resources */,
+				74CC3CF91E9C4F090047601B /* LaunchScreen.storyboard in Resources */,
+				74CC3CF61E9C4F090047601B /* Assets.xcassets in Resources */,
+				7476C7F51E9E6C9E00E6150A /* 1.mp3 in Resources */,
+				74CC3CF41E9C4F090047601B /* Main.storyboard in Resources */,
+				7476C7EF1E9E472E00E6150A /* digital-7 (mono).ttf in Resources */,
+				74203D191E9D33410019A9D1 /* digital-7 (italic).ttf in Resources */,
+				749E685D1E9D53A400225D58 /* ghy.png in Resources */,
+				74203D1B1E9D36230019A9D1 /* backrepeatalarm.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3CFD1E9C4F090047601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436513E1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3D081E9C4F090047601B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7436513F1ECECFCB0029DC06 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74CC3CE71E9C4F090047601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC3CF11E9C4F090047601B /* ViewController.swift in Sources */,
+				74CC3CEF1E9C4F090047601B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3CFB1E9C4F090047601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC3D041E9C4F090047601B /* Repeat_AlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74CC3D061E9C4F090047601B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74CC3D0F1E9C4F090047601B /* Repeat_AlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74CC3D011E9C4F090047601B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74CC3CEA1E9C4F090047601B /* Repeat Alarm */;
+			targetProxy = 74CC3D001E9C4F090047601B /* PBXContainerItemProxy */;
+		};
+		74CC3D0C1E9C4F090047601B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74CC3CEA1E9C4F090047601B /* Repeat Alarm */;
+			targetProxy = 74CC3D0B1E9C4F090047601B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74CC3CF21E9C4F090047601B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC3CF31E9C4F090047601B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74CC3CF71E9C4F090047601B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74CC3CF81E9C4F090047601B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74CC3D111E9C4F090047601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74CC3D121E9C4F090047601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74CC3D141E9C4F090047601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		74CC3D151E9C4F090047601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat Alarm/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		74CC3D171E9C4F090047601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repeat Alarm.app/Repeat Alarm";
+			};
+			name = Debug;
+		};
+		74CC3D181E9C4F090047601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-AlarmTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Repeat Alarm.app/Repeat Alarm";
+			};
+			name = Release;
+		};
+		74CC3D1A1E9C4F090047601B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Repeat Alarm";
+			};
+			name = Debug;
+		};
+		74CC3D1B1E9C4F090047601B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6WNRAAJ27A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Repeat\\ Alarm",
+				);
+				INFOPLIST_FILE = "Repeat AlarmUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cv.Repeat-AlarmUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Repeat Alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74CC3CE61E9C4F090047601B /* Build configuration list for PBXProject "Repeat Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC3D111E9C4F090047601B /* Debug */,
+				74CC3D121E9C4F090047601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CC3D131E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC3D141E9C4F090047601B /* Debug */,
+				74CC3D151E9C4F090047601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CC3D161E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC3D171E9C4F090047601B /* Debug */,
+				74CC3D181E9C4F090047601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74CC3D191E9C4F090047601B /* Build configuration list for PBXNativeTarget "Repeat AlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74CC3D1A1E9C4F090047601B /* Debug */,
+				74CC3D1B1E9C4F090047601B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74CC3CE31E9C4F090047601B /* Project object */;
+}
